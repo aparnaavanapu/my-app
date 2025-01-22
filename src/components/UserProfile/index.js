@@ -1,7 +1,7 @@
 const UserProfile = props => {
     const {userDetails} = props
     const {imageUrl, name, role, key} = userDetails
-    console.log(key)  
+    console.log(key)  // undefined
   
     return (
       <li className="user-card-container">
